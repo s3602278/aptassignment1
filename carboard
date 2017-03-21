@@ -1,0 +1,22 @@
+#include "carboard.h"
+
+int main()
+{
+    /* TODO */
+    printf(" WELCOME TO CAR BOARD /n");
+    printf("----------------------- /n");
+    
+    printf("1. PLAY GAME /n");
+    printf("2. SHOW STUDENT INFO /n");
+    printf("3. QUIT /n");
+
+    printf("PLEASE SELECT AN OPTION");
+
+
+    /* declare char */
+    char s;
+    scanf(&s);
+    printf("\nyou chose option:");
+    printf(s);
+
+    /* USER INPUT */
